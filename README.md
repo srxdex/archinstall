@@ -1,4 +1,4 @@
 # archinstall
 scrip to install arch
 
-## ins proces
+## in process
