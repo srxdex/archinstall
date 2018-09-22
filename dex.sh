@@ -16,8 +16,8 @@ pacstrap /mnt base base-devel                                 #instalar base
 genfstab -U /mnt >> /mnt/etc/fstab                                  
 cat << EOF |arch-chroot /mnt                                  #entrar en chroot
 echo localhost > /etc/hostname
-pacman -S grub
-grub-install /dev/sda -y
+pacman -S grub -y
+grub-install /dev/sda 
 grub-mkconfig -o /boot/grub/grub.cfg
 echo "root\nroot\n"|passwd
 pacman -Syu
