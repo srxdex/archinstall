@@ -2,4 +2,4 @@
 scrip to install arch
 
 ## in process
-curl -LJO
+curl -LJO https://github.com/srxdex/archinstall.git
