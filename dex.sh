@@ -13,7 +13,7 @@ mount /dev/sda1 /mnt                                          #monta /
 mkdir /mnt/home                                               #montar home
 mount /dev/sda3 /mnt/home                                           
 pacstrap /mnt base base-devel                                 #instalar base    
-genfstab -U /mnt >> /mnt/etc/fstab                                  
+#genfstab -U /mnt >> /mnt/etc/fstab                                  
 cat << EOF |arch-chroot /mnt                                  #entrar en chroot
 echo localhost > /etc/hostname
 pacman --noconfirm -S grub
