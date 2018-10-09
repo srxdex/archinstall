@@ -1,5 +1,5 @@
 # archinstall
-scrip to install arch
+*scrip to install arch
 
 *auto format partition 
 
