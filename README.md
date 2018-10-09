@@ -1,10 +1,10 @@
 # archinstall
 
-#how to use
+# how to use
 
 
 
-#it works?
+# it works?
 
 scrip to install arch
 
