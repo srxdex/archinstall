@@ -6,11 +6,11 @@
 
 #it works?
 
-*scrip to install arch
+scrip to install arch
 
-*auto format partition 
+auto format partition 
 
-*install base & base-devel 
+install base & base-devel 
 
 
 ## in process
