@@ -2,6 +2,8 @@
 
 # how to use
  git clone https://github.com/srxdex/archinstall.git 
+ 
+ wget https://raw.githubusercontent.com/srxdex/archinstall/master/dex.sh
 
 
 # it works?
